@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  shape-rendering: crispEdges;
+}
+
+.version-rect {
+  fill: #fff;
+  stroke: #ccc;
+}
+
+.red{fill:rgb(244,109,67)}
+.green{fill:rgb(217,239,139)}
+.yellow{fill:rgb(255,255,191)}
+
+
+.graph {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.label-text {
+  text-anchor: middle;
+  dominant-baseline: central;
+  font: 14px sans-serif;
+}
+
+.label-text:hover {
+  text-decoration: underline;
+}
+</style>
+
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+</style>
+
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="graphics.js"></script>
+<script src="builder.js"></script>
